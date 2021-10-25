@@ -9,6 +9,12 @@ public class Spots {
     private int x;
     private int y;
 
+    public Spots (int X, int Y, Piece P) {
+        this.setX(X);
+        this.setY(Y);
+        this.setPiece(P);
+    }
+
     // Returns if there is a piece at this spot
     public Piece getPiece() {
         return this.piece;
